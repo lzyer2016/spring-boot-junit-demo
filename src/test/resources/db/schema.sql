@@ -1,0 +1,9 @@
+DROP TABLE IF EXISTS `user`;
+CREATE TABLE `user` (
+  `id`   INT(10)     NOT NULL AUTO_INCREMENT,
+  `name` VARCHAR(16) NOT NULL,
+  `age`  INT(10)     NOT NULL,
+  PRIMARY KEY (`id`)
+)
+  ENGINE = InnoDB
+  DEFAULT CHARSET = utf8mb4;
